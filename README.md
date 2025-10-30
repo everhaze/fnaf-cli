@@ -8,7 +8,7 @@ Built to run on a potato
 
 Animatronics have a chance to move every 5s.  
 Each night lasts 270s (45s per hour).  
-Only electronics scale with nights. (Closing doors, using lights, cams)  
+Electronics scale with nights. (Closing doors, using lights, cams)  
 
 # Controls  
 
