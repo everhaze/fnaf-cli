@@ -22,7 +22,7 @@ class clifnaf():
         self.foxycounter = 0
         self.powerperc = 100
 
-    def AI_level(self): #doors/lights/cams scale with nights
+    def AI_level(self): 
         AI_list = ([1, 1, 0, 0],
                    [3, 3, 1, 2],
                    [5, 5, 3, 5],
@@ -163,7 +163,7 @@ b = check power
                                 self.w = False
                                 break
 
-    def powerdrainer(self):
+    def powerdrainer(self): #doors/lights/cams scale with nights
         while self.gameon:
             drain = 0
             if self.q: drain += 0.005 * self.night
